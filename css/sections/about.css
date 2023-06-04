@@ -1,0 +1,134 @@
+.about-us {
+  display: flex;
+  min-height: 72rem;
+  overflow: hidden;
+}
+.about-us__image {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: var(--color-white);
+  position: relative;
+}
+.about-us__image div {
+  padding: 3.5rem 2.4rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.about-us__image-batata3 {
+  border-bottom: 8px solid var(--color-creamson);
+  background-image: url('../../assets/about_bg1.png');
+}
+.about-us__image-batata2 {
+  background-image: url('../../assets/about_bg2.png');
+}
+
+.about-us__image-batata3 img {
+  position: relative;
+  width: 40rem;
+}
+.about-us__image-batata2 img {
+  width: 40rem;
+}
+.about-us__button {
+  position: absolute;
+  right: 0;
+  bottom: 46.5%;
+  padding: 1.2rem 3.2rem;
+  min-height: 6.4rem;
+  background-color: var(--secondary-color);
+  border-radius: 3.2rem 0 0 3.2rem;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: var(--plus-jakarta-sans);
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  cursor: pointer;
+  transition: all 200ms;
+}
+.about-us__button:hover {
+  background-color: rgb(192, 192, 192);
+  background-color: var(--primary-color);
+
+  color: rgb(255, 255, 255);
+}
+.about-us__button img {
+  object-fit: contain;
+  margin-left: 3.2rem;
+}
+
+.about-us__content {
+  padding: 6.4rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+  .about-us {
+    flex-direction: column;
+  }
+
+  .about-us__image {
+    flex-direction: row;
+  }
+
+  .about-us__image-batata3 {
+    border-bottom: none;
+    border-right: 0.8rem solid var(--color-creamson);
+  }
+
+  .about-us__button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .about-us__image {
+    flex-direction: column;
+  }
+
+  .about-us__image-batata3 {
+    border-bottom: 0.8rem solid var(--color-creamson);
+    border-right: none;
+  }
+
+  .about-us__button {
+    display: block;
+    top: 47%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .about-us__image-batata2 img,
+  .about-us__image-batata3 img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .about-us__image div {
+    padding: 3.2rem;
+  }
+
+  .about-us__button {
+    top: 44%;
+  }
+
+  .about-us__content {
+    padding: 3.2rem;
+  }
+  .about-us__content h3 {
+    font-size: 3.2rem;
+  }
+  .batata__description {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,80 @@
+.header__nav {
+  display: flex;
+  overflow: hidden;
+ 
+}
+.header__logo {
+  flex: 1;
+  display: flex;
+  position: relative;
+  padding: 2rem;
+}
+.header__logo-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  z-index: 1;
+}
+.header__logo h1{
+  z-index: 2;
+  padding-left: 3rem;
+  color: white;
+  font-size: 3rem;
+}
+
+.header__menu,
+.header__menu-mobile {
+  padding: 2rem;
+  flex: 1.235;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6.4rem;
+  list-style: none;
+}
+
+.header__menu li {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-family: var(--plus-jakarta-sans);
+  color: var(--secondary-color);
+  cursor: pointer;
+  white-space: nowrap;
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+}
+
+.header__menu li img {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+}
+
+.header__menu-mobile {
+  display: none;
+  gap: 2rem;
+  position: relative;
+}
+
+@media screen and (max-width: 900px) {
+  .header__nav {
+    background: var(--primary-color);
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__menu-mobile {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 55rem) {
+  .header__logo {
+    padding-left: 0;
+  }
+}
