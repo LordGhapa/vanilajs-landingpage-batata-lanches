@@ -156,7 +156,7 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 128rem) {
   .hero {
     flex-direction: column;
   }
@@ -174,14 +174,14 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 75rem) {
   .hero-image h2 {
     font-size: 6rem;
     line-height: 7rem;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 55rem) {
   .hero-image h2 {
     font-size: 3.5rem;
     line-height: 3.5rem;

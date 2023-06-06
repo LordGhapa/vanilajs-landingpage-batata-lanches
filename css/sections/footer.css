@@ -60,12 +60,12 @@
   object-fit: contain;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 76.8rem) {
   .footer {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 55rem) {
 
   .footer__nav li {
     width: 100%;

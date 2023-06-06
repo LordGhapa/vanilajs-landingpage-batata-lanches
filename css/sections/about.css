@@ -22,7 +22,7 @@
   background-size: contain;
 }
 .about-us__image-batata3 {
-  border-bottom: 8px solid var(--color-creamson);
+  border-bottom: .8rem solid var(--color-creamson);
   background-image: url('../../assets/about_bg1.png');
 }
 .about-us__image-batata2 {
@@ -72,7 +72,7 @@
   flex-direction: column;
   justify-content: center;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 102.4rem) {
   .about-us {
     flex-direction: column;
   }
@@ -91,7 +91,7 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 75rem) {
   .about-us__image {
     flex-direction: column;
   }
@@ -107,7 +107,7 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 55rem) {
   .about-us__image-batata2 img,
   .about-us__image-batata3 img {
     width: 100%;

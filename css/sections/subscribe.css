@@ -67,7 +67,7 @@
   object-fit: contain;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:76.8rem) {
   .subscription {
     padding: 6.4rem 3.2rem;
   }

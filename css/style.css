@@ -92,3 +92,9 @@ a {
 
   margin: 3.2rem 0;
 }
+@media screen and (max-width: 55rem) {
+  :root {
+    font-size: 40%;
+  }
+
+}

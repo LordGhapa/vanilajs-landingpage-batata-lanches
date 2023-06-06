@@ -67,11 +67,11 @@
 .trending-drinks .trending__image {
   background-image: url('../../assets/batata_drinks-bg.png');
 }
-.trending-drinks>.trending__image>img {
+.trending-drinks > .trending__image > img {
   height: 50rem;
   object-fit: contain;
 }
-.trending-batata>.trending__image > img {
+.trending-batata > .trending__image > img {
   height: 50rem;
   object-fit: contain;
 }
@@ -107,7 +107,7 @@
 }
 
 .trending__arrow-left {
-  left: -2.5px;
+  left: -0.25rem;
   top: 12%;
 }
 
@@ -118,13 +118,13 @@
 }
 
 .trending__arrow-top {
-  top: -7px;
+  top: -0.7rem;
   left: 12%;
   /* background-color: red; */
 }
 
 .trending__arrow-bottom {
-  bottom: -6.5px;
+  bottom: -0.65rem;
   right: 12%;
 }
 
@@ -135,11 +135,11 @@
 }
 
 .trending__arrow-right {
-  right: -2.5px;
+  right: -0.25rem;
   bottom: 12%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 102.4rem) {
   .trending-batata {
     flex-direction: column;
   }
@@ -162,12 +162,10 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 55rem) {
   .trending__image img {
-    width: 70%;
-    height: 70%;
+    height: 40rem !important;
   }
-
   .trending__content {
     padding: 3.2rem;
   }

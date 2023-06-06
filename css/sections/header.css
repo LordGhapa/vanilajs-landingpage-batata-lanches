@@ -37,7 +37,7 @@
 .header__menu li {
   font-weight: 500;
   font-size: 1.6rem;
-  line-height: 20px;
+  line-height: 2rem;
   text-transform: uppercase;
   font-family: var(--plus-jakarta-sans);
   color: var(--secondary-color);
@@ -59,7 +59,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 90rem) {
   .header__nav {
     background: var(--primary-color);
   }
