@@ -14,7 +14,6 @@
   width: 120%;
   height: 100%;
   object-fit: contain;
-  
 }
 .hero-image__overlay {
   position: absolute;
@@ -156,7 +155,7 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 128rem) {
+@media screen and (max-width: 1280px) {
   .hero {
     flex-direction: column;
   }
