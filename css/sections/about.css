@@ -22,7 +22,7 @@
   background-size: contain;
 }
 .about-us__image-batata3 {
-  border-bottom: .8rem solid var(--color-creamson);
+  border-bottom: 0.8rem solid var(--color-creamson);
   background-image: url('../../assets/about_bg1.png');
 }
 .about-us__image-batata2 {
@@ -39,7 +39,7 @@
 .about-us__button {
   position: absolute;
   right: 0;
-  bottom: 46.5%;
+  bottom: 40%;
   padding: 1.2rem 3.2rem;
   min-height: 6.4rem;
   background-color: var(--secondary-color);
@@ -53,6 +53,7 @@
   line-height: 2.3rem;
   cursor: pointer;
   transition: all 200ms;
+ 
 }
 .about-us__button:hover {
   background-color: rgb(192, 192, 192);
@@ -76,16 +77,13 @@
   .about-us {
     flex-direction: column;
   }
-
   .about-us__image {
     flex-direction: row;
   }
-
   .about-us__image-batata3 {
     border-bottom: none;
     border-right: 0.8rem solid var(--color-creamson);
   }
-
   .about-us__button {
     display: none;
   }
@@ -100,10 +98,9 @@
     border-bottom: 0.8rem solid var(--color-creamson);
     border-right: none;
   }
-
   .about-us__button {
     display: block;
-    top: 47%;
+ 
   }
 }
 
@@ -119,7 +116,7 @@
   }
 
   .about-us__button {
-    top: 44%;
+    top: 53%;
   }
 
   .about-us__content {
