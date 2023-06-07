@@ -164,7 +164,7 @@
 
 @media screen and (max-width: 55rem) {
   .trending__image img {
-    height: 35rem !important;
+    height: 30rem !important;
   }
   .trending__content {
     padding: 3.2rem;
