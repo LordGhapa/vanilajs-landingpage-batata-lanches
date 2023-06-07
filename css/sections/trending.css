@@ -72,7 +72,7 @@
   object-fit: contain;
 }
 .trending-batata > .trending__image > img {
-  height: 50rem;
+  height: 40rem;
   object-fit: contain;
 }
 
@@ -164,7 +164,7 @@
 
 @media screen and (max-width: 55rem) {
   .trending__image img {
-    height: 40rem !important;
+    height: 35rem !important;
   }
   .trending__content {
     padding: 3.2rem;
