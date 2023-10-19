@@ -22,10 +22,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - JavaScript
+- [Aos](https://michalsnik.github.io/aos/)
 
 ## 💻 Projeto
 
-Exemplo de Landing Page para Uma Lanchonete
+Landing Page para Uma Lanchonete Html,Css,JavaScript e a biblioteca Aos para algumas animações
 
 - [Acesse o projeto finalizado, online](https://vanilajs-landingpage-batata-lanches.vercel.app/)
 
